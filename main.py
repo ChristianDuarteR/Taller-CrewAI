@@ -1,5 +1,9 @@
+from dotenv import load_dotenv
+
 from crew import aurora_triage_crew
 from tickets import TEST_TICKETS
+
+load_dotenv()
 
 
 def main() -> None:
